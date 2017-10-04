@@ -1,5 +1,7 @@
 # [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
 
+[![Join the chat at https://gitter.im/python-pereira/Lobby](https://badges.gitter.im/python-pereira/Lobby.svg)](https://gitter.im/python-pereira/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview
