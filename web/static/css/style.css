@@ -8,3 +8,18 @@
   font-weight: normal !important;
   text-transform: none !important;
 }
+
+.btn-primary, .bg-primary {
+  background-color: #ffc107 !important;
+}
+
+hr {
+  border-color: #ffc107;
+}
+
+#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav.navbar-shrink .navbar-brand {
+  color: #ffc107 !important;
+}

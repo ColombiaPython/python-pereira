@@ -18,7 +18,7 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            $.post( "https://webhooks.gitter.im/e/c35392ef13eb72d2d5d7", {message : "##"+name+"\n#### "+email+"\n#### "+twitter+"\n\n"+message}).always(function(data) {
+            $.post( "https://webhooks.gitter.im/e/0542253e92f164a12585", {message : "##"+name+"\n#### "+email+"\n#### "+twitter+"\n\n"+message}).always(function(data) {
                 // Success message
                 $('#success').html("<div class='alert alert-success'>");
                 $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
