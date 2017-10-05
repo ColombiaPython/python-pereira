@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "Angélica Aguirre",
+    "ocupacion": "Ing. Sistemas y Computación",
+    "email": "",
+    "facebook": "",
+    "twitter": "",
+    "github": "",
+    "foto": "anaguirre.jpg"
+  },
+  {
+    "nombre": "Carolina Gómez Trejos",
+    "ocupacion": "",
+    "email": "",
+    "facebook": "",
+    "twitter": "",
+    "github": "",
+    "foto": "caro.jpg"
+  },
+  {
+    "nombre": "Alejandro E. Rendon",
+    "ocupacion": "",
+    "email": "",
+    "facebook": "",
+    "twitter": "",
+    "github": "",
+    "foto": "arendon.jpg"
+  }
+]
