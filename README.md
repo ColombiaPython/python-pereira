@@ -4,8 +4,15 @@
 
 ## Deploy
 
+```bash
+python freeze.py
+```
+
 ## Run
 
+```bash
+python run.py
+```
 
 ## Test deploy
 

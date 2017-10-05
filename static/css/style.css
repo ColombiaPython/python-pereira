@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Python;
+  src: url("../fonts/Flux.otf") format("opentype");
+}
+
+.title {
+  font-family: Python;
+  font-weight: normal !important;
+  text-transform: none !important;
+}
