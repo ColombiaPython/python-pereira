@@ -3,6 +3,10 @@
   src: url("../fonts/Flux.otf") format("opentype");
 }
 
+/* header.masthead {
+  background-image: url('../img/background.png');
+} */
+
 .title {
   font-family: Python;
   font-weight: normal !important;
@@ -23,6 +27,11 @@ hr {
 #mainNav.navbar-shrink .navbar-brand,
 .text-primary {
   color: #ffc107 !important;
+}
+
+.btn-org {
+  background-color: #ffc107 !important;
+  color: #fff !important;
 }
 
 .profile {
