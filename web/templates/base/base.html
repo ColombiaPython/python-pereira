@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>PyPereira-Comunidad de Python Pereira</title>
+  <link rel='shortcut icon' type='image/x-icon' href="{{ url_for('static', filename='favicon.ico') }}" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="{{ url_for('static', filename='vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/creative.min.css') }}" rel="stylesheet">
+
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  {% block content %}
+  {% endblock %}
+
+    <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Contáctanos</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Nombre *" id="name" required data-validation-required-message="Porfavor ingresa tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Tu Correo *" id="email" required data-validation-required-message="Ingresa tu dirección de correo.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Twitter" id="twitter">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Tu Mensaje *" id="message" required data-validation-required-message="Ingresa tu mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl">Enviar Mensaje.</button>
+              </div>
+          </form>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+              (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Síguenos!</h2>
+          <hr class="primary">
+          <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back
+            to you as soon as possible!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 ml-auto text-center">
+          <i class="fa fa-facebook fa-3x sr-contact"></i>
+          <p>123-456-6789</p>
+        </div>
+        <div class="col-lg-3 mr-auto text-center">
+          <i class="fa fa-twitter fa-3x sr-contact"></i>
+          <p>
+            <a href="mailto:your-email@your-domain.com">@pythonpereira</a>
+          </p>
+        </div>
+        <div class="col-lg-3 mr-auto text-center">
+          <i class="fa fa-instagram fa-3x sr-contact"></i>
+          <p>
+            <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+          </p>
+        </div>
+        <div class="col-lg-3 mr-auto text-center">
+          <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+          <p>
+            <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/popper/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/scrollreveal/scrollreveal.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+
+  <!-- Custom scripts f  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Contáctanos</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Nombre *" id="name" required data-validation-required-message="Porfavor ingresa tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Tu Correo *" id="email" required data-validation-required-message="Ingresa tu dirección de correo.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Twitter" id="twitter">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Tu Mensaje *" id="message" required data-validation-required-message="Ingresa tu mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl">Enviar Mensaje.</button>
+              </div>
+          </form>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+              (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/popper/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/scrollreveal/scrollreveal.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
+
+  <script src="{{ url_for('static', filename='js/jqBootstrapValidation.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/contact.js') }}"></script>
+
+</body>
+
+</html>
+
+
