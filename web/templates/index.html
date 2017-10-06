@@ -122,10 +122,30 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row no-gutter popup-gallery">
+      
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="row no-gutter" data-target="#exampleModal">
         {% if proximo.activa == 'si' %}
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ url_for('static', filename='img/portfolio/fullsize/1.jpg') }}">
+          <a class="portfolio-box" data-toggle="modal" data-target="#exampleModal">
             <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
@@ -142,12 +162,31 @@
             </div>
           </a>
         </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
         {% else %}
         <h1>Aún no tenemos eventos</h1>
         {% endif %}
         {% for anterior in anteriores %}
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ url_for('static', filename='img/portfolio/fullsize/1.jpg') }}">
+          <a class="portfolio-box">
             <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
@@ -162,6 +201,25 @@
               </div>
             </div>
           </a>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
         </div>
         {% endfor %}
       </div>
