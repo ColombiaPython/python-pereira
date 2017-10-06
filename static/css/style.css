@@ -1,6 +1,6 @@
 @font-face {
   font-family: Python;
-  src: url("../fonts/Flux.otf") format("opentype");
+  src: url('../fonts/Flux.otf') format('opentype');
 }
 
 /* header.masthead {
@@ -13,17 +13,25 @@
   text-transform: none !important;
 }
 
-.btn-primary, .bg-primary {
+.btn-primary,
+.bg-primary {
   background-color: #ffc107 !important;
+}
+
+.portfolio-box .portfolio-box-caption {
+  background-color: rgba(255, 193, 7, 0.9);
 }
 
 hr {
   border-color: #ffc107;
 }
 
-#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active,#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
-#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav.navbar-shrink .navbar-brand:focus,
+#mainNav.navbar-shrink .navbar-brand:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav.navbar-shrink .navbar-brand,
 .text-primary {
   color: #ffc107 !important;
@@ -36,5 +44,5 @@ hr {
 
 .profile {
   width: 70%;
-  border-radius: 50%
+  border-radius: 50%;
 }
