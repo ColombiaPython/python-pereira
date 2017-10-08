@@ -15,15 +15,15 @@
 
 .btn-primary,
 .bg-primary {
-  background-color: #ffc107 !important;
+  background-color: #1e88e5 !important;
 }
 
 .portfolio-box .portfolio-box-caption {
-  background-color: rgba(255, 193, 7, 0.9);
+  background-color: rgba(30, 136, 229, 0.9);
 }
 
 hr {
-  border-color: #ffc107;
+  border-color: #1e88e5;
 }
 
 #mainNav.navbar-shrink .navbar-brand:focus,
@@ -34,11 +34,11 @@ hr {
 #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav.navbar-shrink .navbar-brand,
 .text-primary {
-  color: #ffc107 !important;
+  color: #1e88e5 !important;
 }
 
 .btn-org {
-  background-color: #ffc107 !important;
+  background-color: #1e88e5 !important;
   color: #fff !important;
 }
 

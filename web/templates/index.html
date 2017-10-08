@@ -42,7 +42,7 @@
             <p class="convert-emoji">
               Welcome to this Emoji One :snail: demo! 😄 I hope you like what we've put together here for you. :thumbsup: :smile:
             </p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Más información</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger convert-emoji" href="#portfolio">Más información :point_down:</a>
           </div>
         </div>
       </div>
@@ -131,24 +131,25 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row no-gutter popup-gallery">
+      <div class="row no-gutter">
         {% if proximos %}
         {% for proximo in proximos %}
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ url_for('static', filename='img/portfolio/fullsize/1.jpg') }}">
-              <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <h2 class="convert-emoji">:boom:PRÓXIMA REUNIÓN:boom:</h2>
-                  <div class="project-category text-faded convert-emoji">
-                    {{ proximo.nombre }}
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
+          <div class="portfolio-box">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <h2 class="convert-emoji">:tada:PRÓXIMA REUNIÓN:boom:</h2>
+                <div class="project-category text-faded convert-emoji">
+                  {{ proximo.nombre }}
                 </div>
+                <div class="project-name">
+                  
+                </div>
+                <h5>{{ proximo.fecha }} {{ proximo.hora }}</h5>
               </div>
-            </a>
+            </div>
+          </div>
         </div>
         {% endfor %}
         {% else %}
@@ -157,19 +158,19 @@
         {% if proximos %} 
         {% for anterior in anteriores %}
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ url_for('static', filename='img/portfolio/fullsize/1.jpg') }}">
-              <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    {{ anterior.nombre }}
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
+          <div class="portfolio-box">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  {{ anterior.nombre }}
+                </div>
+                <div class="project-name">
+                  Project Name
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
         </div>
         {% endfor %} 
         {% endif %}
