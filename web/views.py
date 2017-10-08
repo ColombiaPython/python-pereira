@@ -10,7 +10,7 @@ def home():
     with open('data/reunion.json') as data_file:    
         reunion = json.load(data_file)
     
-    return render_template('index.html', organizadores=organizadores, proximo=reunion["proximo"], anteriores=reunion["anterior"][:5])
+    return render_template('index.html', organizadores=organizadores, proximos=reunion["proximo"], anteriores=reunion["anterior"][:(6 - len(reunion["proximo"]))])
 
 @app.route('/eventos/')
 def eventos():
