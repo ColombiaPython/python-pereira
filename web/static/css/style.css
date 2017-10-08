@@ -46,3 +46,8 @@ hr {
   width: 70%;
   border-radius: 50%;
 }
+
+.logo {
+  padding: 10px;
+  width: 90%;
+}

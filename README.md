@@ -46,12 +46,16 @@ python run.py
 env/bin/python web/run.py
 ```
 
+* La aplicación se ejecutará sobre localhost:5000
+
 ## Test deploy
 
 ```bash
 env/bin/python -m http.server <port>
 ```
 
-## Copyright and License
+## Referencias
+
+### Plantilla de Bootstrap
 
 Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
