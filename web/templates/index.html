@@ -39,7 +39,10 @@
             <h1 id="homeHeading" class="title">Comunidad Python Pereira</h1>
             <hr>
             <h3>Próximos Eventos:</h3>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Más información</a>
+            <p class="convert-emoji">
+              Welcome to this Emoji One :snail: demo! 😄 I hope you like what we've put together here for you. :thumbsup: :smile:
+            </p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Más información</a>
           </div>
         </div>
       </div>
@@ -162,8 +165,8 @@
                 <div class="project-name">
                   {{ proximo.resumen }}
                 </div>
-                <h5><b><i class="fa fa-calendar" aria-hidden="true"></i> {{ proximo.fecha }}</b></h5>
-                <h5><b><i class="fa fa-clock-o" aria-hidden="true"></i> {{ proximo.hora }}</b></h5>
+                <h5 class="convert-emoji"><b>:calendar: {{ proximo.fecha }}</b></h5>
+                <h5 class="convert-emoji"><b>:clock3: {{ proximo.hora }}</b></h5>
               </div>
             </div>
           </a>
@@ -202,8 +205,8 @@
                 <div class="project-name">
                   {{ anterior.resumen }}
                 </div>
-                <h5><b><i class="fa fa-calendar" aria-hidden="true"></i> {{ anterior.fecha }}</b></h5>
-                <h5><b><i class="fa fa-clock-o" aria-hidden="true"></i> {{ anterior.hora }}</b></h5>
+                <h5 class="convert-emoji"><b>:calendar: {{ anterior.fecha }}</b></h5>
+                <h5 class="convert-emoji"><b>:clock3: {{ anterior.hora }}</b></h5>
               </div>
             </div>
           </a>
