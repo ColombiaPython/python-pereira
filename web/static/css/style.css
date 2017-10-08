@@ -62,7 +62,7 @@ h1 > .emojione {
   width: 44px !important;
 }
 
-h2 > .emojione {
+h2 > .emojione, h3 > .emojione {
   height: 33px !important;
   width: 33px !important;
 }

@@ -2,22 +2,22 @@
   "proximo": [
     {
       "id": "1",
-      "nombre": "1era Reunión PyPereira",
-      "resumen": "Web Scrapping y Plots",
+      "nombre": ":one:era Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción a Visualización de datos y Web Scrapping",
       "flyer": "",
-      "fecha": "1 de Agosto",
-      "hora": "6:30pm",
+      "fecha": "1 AGO 2017",
+      "hora": "18:30",
       "lugar": "Edificio CIDT Salón 15A-304",
       "direccion": "Universidad Tecnológica de Pereira",
       "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
     },
     {
       "id":"django-girls-2017",
-      "nombre": "Django Girls Pereira :girl::woman:",
-      "resumen": "Web Scrapping y Plots",
+      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
+      "resumen": "Taller de Programación para Mujeres",
       "flyer": "",
-      "fecha": "Martes, 1 de Agosto",
-      "hora": "6:30pm",
+      "fecha": "2 DIC 2017",
+      "hora": "08:00-19:00",
       "lugar": "Edificio CIDT Salón 15A-304",
       "direccion": "Universidad Tecnológica de Pereira",
       "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"

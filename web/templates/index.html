@@ -4,7 +4,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="title navbar-brand js-scroll-trigger" href="#page-top">PyPereira</a>
+      <a class="title navbar-brand js-scroll-trigger" href="#page-top"><b class="title">PyPereira</b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,19 @@
           <div class="col-lg-6 col-xs-12">
             <h1 id="homeHeading" class="title">Comunidad Python Pereira</h1>
             <hr>
-            <h3>Próximos Eventos:</h3>
+            {% if proximos %}
+            <h3 class="convert-emoji">:tada: PRÓXIMOS EVENTOS :boom:</h3>
+            <ul>
+              {% for proximo in proximos %}
+              <li class="convert-emoji">{{ proximo.nombre }} (:calendar: {{ proximo.fecha }})</li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <h3 class="convert-emoji">:tada: NO HAY EVENTOS PROGRAMADOS :boom:</h3>
             <p class="convert-emoji">
               Welcome to this Emoji One :snail: demo! 😄 I hope you like what we've put together here for you. :thumbsup: :smile:
             </p>
+            {% endif %}
             <a class="btn btn-primary btn-xl js-scroll-trigger convert-emoji" href="#portfolio">Más información :point_down:</a>
           </div>
         </div>
@@ -53,7 +62,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white convert-emoji">Sobre PyPereira :snake::computer:</h2>
+          <h2 class="section-heading text-white convert-emoji">Sobre <b class="title">PyPereira</b> :snake::computer:</h2>
           <hr class="light">
           <p class="text-faded">Comunidad creada con el objetivo de reunir a los usuarios desarrolladores y apasionados por Python y sus derivados, con el
           fin de crear y fortalecer una red de conocimiento que ayude con el progreso de la región.</p>
@@ -144,9 +153,9 @@
                   {{ proximo.nombre }}
                 </div>
                 <div class="project-name">
-                  
+                  {{ proximo.resumen }}
                 </div>
-                <h5>{{ proximo.fecha }} {{ proximo.hora }}</h5>
+                <p class="convert-emoji">:calendar: {{ proximo.fecha }} :clock3: {{ proximo.hora }}</p>
               </div>
             </div>
           </div>
