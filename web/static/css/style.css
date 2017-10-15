@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Python;
+  src: url('../fonts/Flux.otf') format('opentype');
+}
+
+/* header.masthead {
+  background-image: url('../img/background.png');
+} */
+
+.title {
+  font-family: Python;
+  font-weight: normal !important;
+  text-transform: none !important;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #1e88e5 !important;
+}
+
+.portfolio-box .portfolio-box-caption {
+  background-color: rgba(30, 136, 229, 0.9);
+}
+
+hr {
+  border-color: #1e88e5;
+}
+
+#mainNav.navbar-shrink .navbar-brand:focus,
+#mainNav.navbar-shrink .navbar-brand:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav.navbar-shrink .navbar-brand,
+.text-primary {
+  color: #1e88e5 !important;
+}
+
+.btn-org {
+  background-color: #1e88e5 !important;
+  color: #fff !important;
+}
+
+.profile {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.logo {
+  padding: 10px;
+  width: 90%;
+}
+
+.emojione {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+h1 > .emojione {
+  height: 44px !important;
+  width: 44px !important;
+}
+
+h2 > .emojione, h3 > .emojione {
+  height: 33px !important;
+  width: 33px !important;
+}
+
+.emojione.big {
+  height: 44px !important;
+  width: 44px !important;
+}

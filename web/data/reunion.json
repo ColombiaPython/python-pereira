@@ -1,0 +1,119 @@
+{
+  "proximo": [
+    {
+      "id": "1",
+      "nombre": ":one:era Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción a Visualización de datos y Web Scrapping",
+      "flyer": "",
+      "fecha": "1 AGO 2017",
+      "hora": "18:30",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    },
+    {
+      "id":"django-girls-2017",
+      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
+      "resumen": "Taller de Programación para Mujeres",
+      "flyer": "",
+      "fecha": "2 DIC 2017",
+      "hora": "08:00-19:00",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    }
+  ],
+  "anterior": [
+    {
+      "nombre": "Reunión PyPereira",
+      "resumen": "Resumen",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url": "https://www.meetup.com/PereiraJs_/events/242054104/",
+      "speaker": [
+        {
+          "nombre": "Angélica Aguirre Castro",
+          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "email": "",
+          "facebook": "angelica.aguirrecastro",
+          "twitter": "angelicaaguicas",
+          "github": "anaguicas",
+          "foto": "anaguirre.jpg"
+        },
+        {
+          "nombre": "Angélica Aguirre Castro",
+          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "email": "",
+          "facebook": "angelica.aguirrecastro",
+          "twitter": "angelicaaguicas",
+          "github": "anaguicas",
+          "foto": "anaguirre.jpg"
+        }
+      ],
+      "slide": []
+    },
+    {
+      "nombre": "1era Reunión PyPereira",
+      "resumen": "Web Scrapping y Plots",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    },
+    {
+      "nombre": "1era Reunión PyPereira",
+      "resumen": "Web Scrapping y Plots",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    },
+    {
+      "nombre": "1era Reunión PyPereira",
+      "resumen": "Web Scrapping y Plots",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    },
+    {
+      "nombre": "1era Reunión PyPereira",
+      "resumen": "Web Scrapping y Plots",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    },
+    {
+      "nombre": "1era Reunión PyPereira",
+      "resumen": "Web Scrapping y Plots",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    },
+    {
+      "nombre": "1era Reunión PyPereira",
+      "resumen": "Web Scrapping y Plots",
+      "flyer": "",
+      "fecha": "Martes, 1 de Agosto",
+      "hora": "6:30pm",
+      "lugar": "Edificio CIDT Salón 15A-304",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/PereiraJs_/events/242054104/"
+    }
+  ]
+}

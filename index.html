@@ -27,14 +27,17 @@
   <!-- Custom styles for this template -->
   <link href="/static/css/creative.min.css" rel="stylesheet">
 
+  <link href="/static/css/style.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
 
+  
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">PyPereira</a>
+      <a class="title navbar-brand js-scroll-trigger" href="#page-top"><b class="title">PyPereira</b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,11 +64,26 @@
   <header class="masthead">
     <div class="header-content">
       <div class="header-content-inner">
-        <h1 id="homeHeading">PyPereira / Comunidad Python Pereira</h1>
-        <hr>
-        <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template
-          and start going, no strings attached!</p>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Más información</a>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <img src="/static/img/python-pereira.svg" alt="Logo" class="logo">
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <h1 id="homeHeading" class="title">Comunidad Python Pereira</h1>
+            <hr>
+            
+            <h3 class="convert-emoji">:tada: PRÓXIMOS EVENTOS :boom:</h3>
+            <ul>
+              
+              <li class="convert-emoji">:one:era Reunión PyPereira :snake::computer: (:calendar: 1 AGO 2017)</li>
+              
+              <li class="convert-emoji">:woman::computer: Django Girls Pereira :girl::woman: (:calendar: 2 DIC 2017)</li>
+              
+            </ul>
+            
+            <a class="btn btn-primary btn-xl js-scroll-trigger convert-emoji" href="#portfolio">Más información :point_down:</a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -74,10 +92,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">Sobre PyPereira...</h2>
+          <h2 class="section-heading text-white convert-emoji">Sobre <b class="title">PyPereira</b> :snake::computer:</h2>
           <hr class="light">
-          <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates
-            and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+          <p class="text-faded">Comunidad creada con el objetivo de reunir a los usuarios desarrolladores y apasionados por Python y sus derivados, con el
+          fin de crear y fortalecer una red de conocimiento que ayude con el progreso de la región.</p>
           <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
         </div>
       </div>
@@ -88,171 +106,319 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Equipo Organizador</h2>
+          <h2 class="section-heading convert-emoji">Equipo Organizador :muscle:</h2>
           <hr class="primary">
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
+        
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-            <h3>Sturdy Templates</h3>
-            <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+            <!-- <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> -->
+            
+            <img src="/static/img/perfil/anaguirre.jpg" class="profile"   alt="">
+            
+            <h3>Angélica Aguirre Castro</h3>
+            <p class="text-muted">Ingeniera de Sistemas y Computación</p>
+            <div class="row">
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://github.com/anaguicas" target="blank_"><i class="fa fa-2x fa-github text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://twitter.com/angelicaaguicas" target="blank_"><i class="fa fa-2x fa-twitter text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://facebook.com/angelica.aguirrecastro" target="blank_"><i class="fa fa-2x fa-facebook text-primary sr-icons"></i></a>
+              </div>
+              
+              
+            </div>
           </div>
         </div>
+        
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-            <h3>Ready to Ship</h3>
-            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+            <!-- <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> -->
+            
+            <img src="/static/img/perfil/caro.jpg" class="profile"   alt="">
+            
+            <h3>Carolina Gómez Trejos</h3>
+            <p class="text-muted">Ingeniera de Sistemas y Computación</p>
+            <div class="row">
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://github.com/carogomezt" target="blank_"><i class="fa fa-2x fa-github text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://twitter.com/caro_gomezt" target="blank_"><i class="fa fa-2x fa-twitter text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://facebook.com/carogomezt" target="blank_"><i class="fa fa-2x fa-facebook text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="mailto:carolina9511@gmail.com" target="blank_"><i class="fa fa-2x fa-envelope text-primary sr-icons"></i></a>
+              </div>
+              
+            </div>
           </div>
         </div>
+        
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-            <h3>Up to Date</h3>
-            <p class="text-muted">We update dependencies to keep things fresh.</p>
+            <!-- <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> -->
+            
+            <img src="/static/img/perfil/arendon.jpg" class="profile"   alt="">
+            
+            <h3>Alejandro E. Rendon</h3>
+            <p class="text-muted">Estudiante, Ing. Sistemas y Computación</p>
+            <div class="row">
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://github.com/aerendon" target="blank_"><i class="fa fa-2x fa-github text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://twitter.com/alejoerendon" target="blank_"><i class="fa fa-2x fa-twitter text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="http://facebook.com/AlejoERendon" target="blank_"><i class="fa fa-2x fa-facebook text-primary sr-icons"></i></a>
+              </div>
+              
+              
+              <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                <a href="mailto:alejorendon@utp.edu.co" target="blank_"><i class="fa fa-2x fa-envelope text-primary sr-icons"></i></a>
+              </div>
+              
+            </div>
           </div>
         </div>
+        
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-            <h3>Made with Love</h3>
-            <p class="text-muted">You have to make your websites with love these days!</p>
+            <img src="/static/img/perfil/profile.jpg" class="profile" alt="">
+            <h3>¡Quiero colaborar!</h3>
+            <i class="fa fa-2x fa-heart text-primary sr-icons"></i>
+            <p class="text-muted">Puedes ser parte de esta gran iniciativa</p>
+            <a type="submit" class="btn btn-xl btn-org js-scroll-trigger convert-emoji" href="#contact">:email: Enviar Mensaje.</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <div class="call-to-action bg-dark">
-    <div class="container text-center">
-      <h2>¡Nuestras Reuniones!</h2>
-    </div>
-  </div>
 
   <section class="p-0" id="portfolio">
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>¡Nuestras Reuniones!</h2>
+        <hr />
+      </div>
+    </div>
     <div class="container-fluid">
-      <div class="row no-gutter popup-gallery">
+      <div class="row no-gutter">
+        
+        
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="/static/img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
+          <div class="portfolio-box">
+            <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <h2 class="convert-emoji">:tada:PRÓXIMA REUNIÓN:boom:</h2>
+                <div class="project-category text-faded convert-emoji">
+                  :one:era Reunión PyPereira :snake::computer:
+                </div>
+                <div class="project-name">
+                  Introducción a Visualización de datos y Web Scrapping
+                </div>
+                <p class="convert-emoji">:calendar: 1 AGO 2017 :clock3: 18:30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-box">
+            <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <h2 class="convert-emoji">:tada:PRÓXIMA REUNIÓN:boom:</h2>
+                <div class="project-category text-faded convert-emoji">
+                  :woman::computer: Django Girls Pereira :girl::woman:
+                </div>
+                <div class="project-name">
+                  Taller de Programación para Mujeres
+                </div>
+                <p class="convert-emoji">:calendar: 2 DIC 2017 :clock3: 08:00-19:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+         
+        
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-box">
+            <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Reunión PyPereira
+                </div>
+                <div class="project-name">
+                  Project Name
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
         </div>
+        
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="/static/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="/static/img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
+          <div class="portfolio-box">
+            <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  1era Reunión PyPereira
+                </div>
+                <div class="project-name">
+                  Project Name
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
         </div>
+        
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="/static/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="/static/img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
+          <div class="portfolio-box">
+            <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  1era Reunión PyPereira
+                </div>
+                <div class="project-name">
+                  Project Name
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
         </div>
+        
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="/static/img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="/static/img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
+          <div class="portfolio-box">
+            <img class="img-fluid" src="/static/img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  1era Reunión PyPereira
+                </div>
+                <div class="project-name">
+                  Project Name
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="/static/img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="/static/img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="/static/img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="/static/img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
+         
+        
       </div>
     </div>
   </section>
 
   <div class="call-to-action bg-dark">
     <div class="container text-center">
-      <h2>Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      <a class="btn btn-default btn-xl sr-button" href="/eventos">Ver todo</a>
     </div>
   </div>
 
-  <section id="contact">
+
+
+    <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Contáctanos</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Nombre *" id="name" required data-validation-required-message="Porfavor ingresa tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Tu Correo *" id="email" required data-validation-required-message="Ingresa tu dirección de correo.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Twitter" id="twitter">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Tu Mensaje *" id="message" required data-validation-required-message="Ingresa tu mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl">Enviar Mensaje.</button>
+              </div>
+          </form>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+              (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
+          <h2 class="section-heading">Síguenos!</h2>
           <hr class="primary">
           <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back
             to you as soon as possible!</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fa fa-phone fa-3x sr-contact"></i>
+        <div class="col-lg-3 ml-auto text-center">
+          <i class="fa fa-facebook fa-3x sr-contact"></i>
           <p>123-456-6789</p>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
+        <div class="col-lg-3 mr-auto text-center">
+          <i class="fa fa-twitter fa-3x sr-contact"></i>
+          <p>
+            <a href="mailto:your-email@your-domain.com">@pythonpereira</a>
+          </p>
+        </div>
+        <div class="col-lg-3 mr-auto text-center">
+          <i class="fa fa-instagram fa-3x sr-contact"></i>
+          <p>
+            <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+          </p>
+        </div>
+        <div class="col-lg-3 mr-auto text-center">
           <i class="fa fa-envelope-o fa-3x sr-contact"></i>
           <p>
             <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
@@ -271,9 +437,71 @@
   <script src="/static/vendor/scrollreveal/scrollreveal.min.js"></script>
   <script src="/static/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
+  <!-- Custom scripts f  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Contáctanos</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Nombre *" id="name" required data-validation-required-message="Porfavor ingresa tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Tu Correo *" id="email" required data-validation-required-message="Ingresa tu dirección de correo.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu Twitter" id="twitter">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Tu Mensaje *" id="message" required data-validation-required-message="Ingresa tu mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl">Enviar Mensaje.</button>
+              </div>
+          </form>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+              (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bootstrap core JavaScript -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/popper/popper.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="/static/vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="/static/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
   <!-- Custom scripts for this template -->
   <script src="/static/js/creative.min.js"></script>
+
+  <script src="/static/js/jqBootstrapValidation.js"></script>
+  <script src="/static/js/contact.js"></script>
+
+  <script src="/static/css/emojione.min.css"></script>
+  <script src="/static/js/emojione.min.js"></script>
+  <script src="/static/js/emoji.js"></script>
 
 </body>
 
 </html>
+
