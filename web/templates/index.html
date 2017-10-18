@@ -148,7 +148,7 @@
             <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
-                <h2 class="convert-emoji">:tada:PRÓXIMA REUNIÓN:boom:</h2>
+                <h2 class="convert-emoji">:tada:PRÓXIMA REUNIÓN</h2>
                 <div class="project-category text-faded convert-emoji">
                   {{ proximo.nombre }}
                 </div>
@@ -156,6 +156,29 @@
                   {{ proximo.resumen }}
                 </div>
                 <p class="convert-emoji">:calendar: {{ proximo.fecha }} :clock3: {{ proximo.hora }}</p>
+                <button type="button" class="btn btn-md" data-toggle="modal" data-target="#{{ proximo.id }}">Más Información</button>
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="{{ proximo.id }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title convert-emoji" id="exampleModalLabel">{{ proximo.nombre }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
               </div>
             </div>
           </div>
