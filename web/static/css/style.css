@@ -71,3 +71,30 @@ h2 > .emojione, h3 > .emojione {
   height: 44px !important;
   width: 44px !important;
 }
+
+.fix-link {
+  text-decoration:none;
+}
+
+.icon-color {
+  color: #949494;
+}
+
+.icon-fb:hover {
+    color: #494099;
+    transition: 0.5s;
+}
+
+.icon-tw:hover {
+    color: #6198f2;
+    transition: 0.5s;
+}
+
+.icon-gm:hover {
+    color: #e13912;
+    transition: 0.5s;
+}
+.icon-in:hover {
+    color: #AC3C9C;
+    transition: 0.5s;
+}
