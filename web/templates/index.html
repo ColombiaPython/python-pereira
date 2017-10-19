@@ -157,8 +157,6 @@
                 </div>
                 <p class="convert-emoji">:calendar: {{ proximo.fecha }} :clock3: {{ proximo.hora }}</p>
                 <button type="button" class="btn btn-md" data-toggle="modal" data-target="#{{ proximo.id }}">Más Información</button>
-
-               
               </div>
             </div>
           </div>
@@ -200,6 +198,28 @@
                 <div class="project-name">
                   Project Name
                 </div>
+                <button type="button" class="btn btn-md" data-toggle="modal" data-target="#{{ anterior.id }}">Más Información</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="{{ anterior.id }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title convert-emoji" id="exampleModalLabel">{{ anterior.nombre }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="{{ url_for('static', filename='img/meetup/' + anterior.id + '/' + anterior.flyer) }}" style="max-width: 100%;" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <a type="button" class="btn btn-primary" href="{{ anterior.url_reservas }}" target="blank_">Inscripción</a>
               </div>
             </div>
           </div>
