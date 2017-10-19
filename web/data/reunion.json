@@ -4,12 +4,12 @@
       "id": "1",
       "nombre": ":one:era Reunión PyPereira :snake::computer:",
       "resumen": "Introducción a Visualización de datos y Web Scrapping",
-      "flyer": "",
-      "fecha": "1 AGO 2017",
-      "hora": "18:30",
-      "lugar": "Edificio CIDT Salón 15A-304",
+      "flyer": "flyer.jpg",
+      "fecha": "25 OCT 2017",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-203",
       "direccion": "Universidad Tecnológica de Pereira",
-      "url_reservas": "",
+      "url_reservas": "http://bit.ly/PyPereira",
       "speaker": [
         {
           "nombre": "Angélica Aguirre Castro",
@@ -43,12 +43,12 @@
       "id":"django-girls-2017",
       "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
       "resumen": "Taller de Programación para Mujeres",
-      "flyer": "",
+      "flyer": "flyer.jpg",
       "fecha": "2 DIC 2017",
       "hora": "08:00-19:00",
-      "lugar": "Edificio CIDT Salón 15A-304",
+      "lugar": "Auditorio, Edificio Ing. Mecánica",
       "direccion": "Universidad Tecnológica de Pereira",
-      "url_reservas": "",
+      "url_reservas": "http://miprimeraweb.org",
       "speaker": [
         {
           "nombre": "Angélica Aguirre Castro",
