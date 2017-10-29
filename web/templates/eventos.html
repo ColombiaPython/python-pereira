@@ -31,11 +31,28 @@
 <header class="masthead">
   <div class="header-content">
     <div class="header-content-inner">
-      <h1 id="homeHeading" class="title">Comunidad Python Pereira</h1>
-      <hr>
-      <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template
-        and start going, no strings attached!</p>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Más información</a>
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <img src="{{ url_for('static', filename='img/python-pereira.svg') }}" alt="Logo" class="logo">
+        </div>
+        <div class="col-lg-6 col-xs-12">
+          <h1 id="homeHeading" class="title">Comunidad Python Pereira</h1>
+          <hr> {% if proximos %}
+          <h3 class="convert-emoji">:tada: PRÓXIMOS EVENTOS</h3>
+          <ul>
+            {% for proximo in proximos %}
+            <li class="convert-emoji">{{ proximo.nombre }} (:calendar: {{ proximo.fecha }})</li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <h3 class="convert-emoji">:tada: NO HAY EVENTOS PROGRAMADOS :boom:</h3>
+          <p class="convert-emoji">
+            Welcome to this Emoji One :snail: demo! 😄 I hope you like what we've put together here for you. :thumbsup: :smile:
+          </p>
+          {% endif %}
+          <a class="btn btn-primary btn-xl js-scroll-trigger convert-emoji" href="#portfolio">Más información :point_down:</a>
+        </div>
+      </div>
     </div>
   </div>
 </header>
@@ -48,7 +65,7 @@
     </div>
   </div>
   <div class="container-fluid">
-    <div class="row no-gutter popup-gallery">
+    <div class="row no-gutter" style="background-color: #222">
       {% if proximos %} 
       {% for proximo in proximos %}
       <div class="col-lg-4 col-sm-6">
@@ -108,7 +125,7 @@
           {% endif %}
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
+              <div class="project-category text-faded convert-emoji">
                 {{ anterior.nombre }}
               </div>
               <div class="project-name">
@@ -141,7 +158,7 @@
               <div class="row">
                 {% for recurso in anterior.recurso %}
                 <div class="col-lg-6 col-md-6 text-center">
-                  <h2>{{ recurso.titulo }}</h2>
+                  <h5>{{ recurso.titulo }}</h5>
                   <div class="row">
                     {% if recurso.repositorio %}
                     <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
