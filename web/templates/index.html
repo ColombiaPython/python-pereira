@@ -140,7 +140,7 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row no-gutter">
+      <div class="row no-gutter" style="background-color: #222">
         {% if proximos %}
         {% for proximo in proximos %}
         <div class="col-lg-4 col-sm-6">
@@ -176,7 +176,10 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img src="{{ url_for('static', filename='img/meetup/' + proximo.id + '/' + proximo.flyer) }}" style="max-width: 100%;" alt="">
+                {% if proximo.flyer %}
+                <img src="{{ url_for('static', filename='img/meetup/' + proximo.id + '/' + proximo.flyer) }}" style="max-width: 100%;"
+                  alt=""> 
+                {% endif %}
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -200,7 +203,7 @@
             {% endif %}
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
+                <div class="project-category text-faded convert-emoji">
                   {{ anterior.nombre }}
                 </div>
                 <div class="project-name">
@@ -232,7 +235,7 @@
                 <div class="row">
                 {% for recurso in anterior.recurso %}
                   <div class="col-lg-6 col-md-6 text-center">
-                    <h2>{{ recurso.titulo }}</h2>
+                    <h5>{{ recurso.titulo }}</h5>
                     <div class="row">
                       {% if recurso.repositorio %}
                       <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
@@ -289,7 +292,7 @@
                       {% endif %}
                     </div>
                   </div>
-                {% endfor %}
+                  {% endfor %}
                 </div>
               </div>
               <div class="modal-footer">

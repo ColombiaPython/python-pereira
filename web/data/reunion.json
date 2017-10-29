@@ -1,6 +1,38 @@
 {
   "proximo": [
     {
+      "id": "django-girls-2017",
+      "portada": "portada.png",
+      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
+      "resumen": "Taller de Programación para Mujeres",
+      "flyer": "flyer.png",
+      "fecha": "2 DIC 2017",
+      "hora": "08:00-19:00",
+      "lugar": "Auditorio, Edificio Ing. Mecánica",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://miprimeraweb.org",
+      "speaker": [
+        {
+          "nombre": "",
+          "ocupacion": "",
+          "email": "",
+          "facebook": "",
+          "twitter": "",
+          "github": "",
+          "foto": ""
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    }
+  ],
+  "anterior": [
+    {
       "id": "1",
       "portada": "portada.jpg",
       "nombre": ":one:era Reunión PyPereira :snake::computer:",
@@ -13,236 +45,34 @@
       "url_reservas": "http://bit.ly/PyPereira",
       "speaker": [
         {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "nombre": "Juan Sebastián Vega Patiño",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
           "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
+          "facebook": "",
+          "twitter": "sebasvega95",
           "github": "anaguicas",
-          "foto": "anaguirre.jpg"
+          "foto": "vega.jpg"
         },
         {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "nombre": "Jonatan Gutierrez",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
           "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        }
-      ],
-      "slide": [
-        {
-          "url": ""
-        },
-        {
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "django-girls-2017",
-      "portada": "",
-      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
-      "resumen": "Taller de Programación para Mujeres",
-      "flyer": "flyer.jpg",
-      "fecha": "2 DIC 2017",
-      "hora": "08:00-19:00",
-      "lugar": "Auditorio, Edificio Ing. Mecánica",
-      "direccion": "Universidad Tecnológica de Pereira",
-      "url_reservas": "http://miprimeraweb.org",
-      "speaker": [
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        },
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        }
-      ],
-      "slide": [
-        {
-          "url": ""
-        },
-        {
-          "url": ""
-        }
-      ]
-    }
-  ],
-  "anterior": [
-    {
-      "id": "test",
-      "portada": "",
-      "nombre": "Reunión PyPereira",
-      "resumen": "Resumen",
-      "flyer": "",
-      "fecha": "Martes, 1 de Agosto",
-      "hora": "6:30pm",
-      "lugar": "Edificio CIDT Salón 15A-304",
-      "direccion": "Universidad Tecnológica de Pereira",
-      "url": "https://www.meetup.com/PereiraJs_/events/242054104/",
-      "speaker": [
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        },
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
+          "facebook": "jotangutierrez",
+          "twitter": "jotangutierrez",
+          "github": "jonatan6",
+          "foto": "genio.jpg"
         }
       ],
       "recurso": [
         {
-          "titulo": "Intro DataViz",
+          "titulo": "Introducción a Visualización de Datos",
           "slide": "",
           "repositorio": "https://github.com/pythonpereira/IntroDataVizSeaborn"
         },
         {
-          "titulo": "Web scraping",
+          "titulo": "Web Scraping",
           "slide": "https://sway.com/JhUm4oOJvVkIMtDA?ref=Link&loc=play",
           "repositorio": ""
-        }
-      ]
-    },
-    {
-      "id": "django-girls-2017",
-      "portada": "",
-      "nombre": "Reunión PyPereira",
-      "resumen": "Resumen",
-      "flyer": "",
-      "fecha": "Martes, 1 de Agosto",
-      "hora": "6:30pm",
-      "lugar": "Edificio CIDT Salón 15A-304",
-      "direccion": "Universidad Tecnológica de Pereira",
-      "url": "https://www.meetup.com/PereiraJs_/events/242054104/",
-      "speaker": [
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        },
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        }
-      ],
-      "slide": [
-        {
-          "url": ""
-        },
-        {
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "django-girls-2017",
-      "portada": "",
-      "nombre": "Reunión PyPereira",
-      "resumen": "Resumen",
-      "flyer": "",
-      "fecha": "Martes, 1 de Agosto",
-      "hora": "6:30pm",
-      "lugar": "Edificio CIDT Salón 15A-304",
-      "direccion": "Universidad Tecnológica de Pereira",
-      "url": "https://www.meetup.com/PereiraJs_/events/242054104/",
-      "speaker": [
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        },
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        }
-      ],
-      "slide": [
-        {
-          "url": ""
-        },
-        {
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "django-girls-2017",
-      "portada": "",
-      "nombre": "Reunión PyPereira",
-      "resumen": "Resumen",
-      "flyer": "",
-      "fecha": "Martes, 1 de Agosto",
-      "hora": "6:30pm",
-      "lugar": "Edificio CIDT Salón 15A-304",
-      "direccion": "Universidad Tecnológica de Pereira",
-      "url": "https://www.meetup.com/PereiraJs_/events/242054104/",
-      "speaker": [
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        },
-        {
-          "nombre": "Angélica Aguirre Castro",
-          "ocupacion": "Ingeniera de Sistemas y Computación",
-          "email": "",
-          "facebook": "angelica.aguirrecastro",
-          "twitter": "angelicaaguicas",
-          "github": "anaguicas",
-          "foto": "anaguirre.jpg"
-        }
-      ],
-      "slide": [
-        {
-          "url": ""
-        },
-        {
-          "url": ""
         }
       ]
     }
