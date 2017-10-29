@@ -49,11 +49,63 @@
   </div>
   <div class="container-fluid">
     <div class="row no-gutter popup-gallery">
+      {% if proximos %} 
+      {% for proximo in proximos %}
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-box">
+          {% if proximo.portada %}
+          <img class="img-fluid" src="{{ url_for('static', filename='img/meetup/' + proximo.id + '/' + proximo.portada ) }}" alt=""> 
+          {% else %}
+          <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt=""> 
+          {% endif %}
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <h2 class="convert-emoji">:tada:PRÓXIMA REUNIÓN</h2>
+              <div class="project-category text-faded convert-emoji">
+                {{ proximo.nombre }}
+              </div>
+              <div class="project-name">
+                {{ proximo.resumen }}
+              </div>
+              <p class="convert-emoji">:calendar: {{ proximo.fecha }} :clock3: {{ proximo.hora }}</p>
+              <button type="button" class="btn btn-md" data-toggle="modal" data-target="#{{ proximo.id }}">Más Información</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="{{ proximo.id }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title convert-emoji" id="exampleModalLabel">{{ proximo.nombre }}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="{{ url_for('static', filename='img/meetup/' + proximo.id + '/' + proximo.flyer) }}" style="max-width: 100%;" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <a class="btn btn-primary" href="{{ proximo.url_reservas }}" target="blank_">Inscripción</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %} 
+      {% else %} 
+      {% endif %}
 
       {% for anterior in anteriores %}
       <div class="col-lg-4 col-sm-6">
-        <a class="portfolio-box" href="{{ url_for('static', filename='img/portfolio/fullsize/1.jpg') }}">
-          <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt="">
+        <div class="portfolio-box">
+          {% if anterior.portada %}
+          <img class="img-fluid" src="{{ url_for('static', filename='img/meetup/' + anterior.id + '/' + anterior.portada ) }}" alt=""> 
+          {% else %}
+          <img class="img-fluid" src="{{ url_for('static', filename='img/portfolio/thumbnails/1.jpg') }}" alt=""> 
+          {% endif %}
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
@@ -62,11 +114,97 @@
               <div class="project-name">
                 {{ anterior.resumen }}
               </div>
-              <h5><b><i class="fa fa-calendar" aria-hidden="true"></i> {{ anterior.fecha }}</b></h5>
-              <h5><b><i class="fa fa-clock-o" aria-hidden="true"></i> {{ anterior.hora }}</b></h5>
+              <p class="convert-emoji">:calendar: {{ anterior.fecha }} :clock3: {{ anterior.hora }}</p>
+              <button type="button" class="btn btn-md" data-toggle="modal" data-target="#{{ anterior.id }}">Más Información</button>
             </div>
           </div>
-        </a>
+        </div>
+      </div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="{{ anterior.id }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title convert-emoji" id="exampleModalLabel">{{ anterior.nombre }}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 text-center">
+                  <p class="convert-emoji">:calendar: {{ anterior.fecha }} :clock3: {{ anterior.hora }}</p>
+                </div>
+              </div>
+              <div class="row">
+                {% for recurso in anterior.recurso %}
+                <div class="col-lg-6 col-md-6 text-center">
+                  <h2>{{ recurso.titulo }}</h2>
+                  <div class="row">
+                    {% if recurso.repositorio %}
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                      <a href="{{ recurso.repositorio }}" target="blank_" class="tooltip-test" title="Repositorio">
+                        <i class="fa fa-2x fa-github text-primary"></i>
+                      </a>
+                    </div>
+                    {% endif %} {% if recurso.slide %}
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                      <a href="{{ recurso.slide }}" target="blank_" class="tooltip-test" title="Slide">
+                        <i class="fa fa-2x fa-paperclip text-primary"></i>
+                      </a>
+                    </div>
+                    <p>
+                      {% endif %}
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+              <hr />
+              <h3 class="text-center">Speakers</h3>
+              <hr />
+              <div class="row">
+                {% for speaker in anterior.speaker %}
+                <div class="col-lg-6 col-md-6 text-center">
+                  <img src="{{ url_for('static', filename='img/perfil/' + speaker.foto) }}" alt="{{ speaker.nombre }}" class="profile" />
+                  <p>{{ speaker.nombre }}</p>
+                  <div class="row">
+                    {% if speaker.github %}
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                      <a href="http://github.com/{{ speaker.github }}" target="blank_">
+                        <i class="fa fa-2x fa-github text-primary"></i>
+                      </a>
+                    </div>
+                    {% endif %} {% if speaker.twitter %}
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                      <a href="http://twitter.com/{{ speaker.twitter }}" target="blank_">
+                        <i class="fa fa-2x fa-twitter text-primary"></i>
+                      </a>
+                    </div>
+                    {% endif %} {% if speaker.facebook %}
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                      <a href="http://facebook.com/{{ speaker.facebook }}" target="blank_">
+                        <i class="fa fa-2x fa-facebook text-primary"></i>
+                      </a>
+                    </div>
+                    {% endif %} {% if speaker.email %}
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
+                      <a href="mailto:{{ speaker.email }}" target="blank_">
+                        <i class="fa fa-2x fa-envelope text-primary"></i>
+                      </a>
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
       </div>
       {% endfor %}
     </div>
