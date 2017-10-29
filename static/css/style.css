@@ -3,6 +3,10 @@
   src: url('../fonts/Flux.otf') format('opentype');
 }
 
+.title-events {
+  font-family: 'Oswald', sans-serif !important;
+}
+
 /* header.masthead {
   background-image: url('../img/background.png');
 } */
