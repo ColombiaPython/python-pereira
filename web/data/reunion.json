@@ -1,6 +1,50 @@
 {
   "proximo": [
     {
+      "id": "2",
+      "portada": "",
+      "nombre": ":two:da Reunión PyPereira :snake::computer:",
+      "resumen": "",
+      "flyer": "flyer.png",
+      "fecha": "11 Nov 2017",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-204",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://bit.ly/2daPyPereira",
+      "speaker": [
+        {
+          "nombre": "John H. Osorio",
+          "ocupacion": "M.Sc. Ingeniería de Sistemas y Computación",
+          "email": "john@sirius.utp.edu.co",
+          "facebook": "",
+          "twitter": "kala855",
+          "github": "kala855",
+          "foto": "john.jpg"
+        },
+        {
+          "nombre": "Sergio Alexander Florez",
+          "ocupacion": "Ing. Sistemas y Computación",
+          "email": "",
+          "facebook": "",
+          "twitter": "XergioAleX",
+          "github": "xergioalex",
+          "foto": "sergio.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "",
+          "slide": "",
+          "repositorio": ""
+        },
+        {
+          "titulo": "",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
       "id": "django-girls-2017",
       "portada": "portada.png",
       "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
@@ -50,7 +94,7 @@
           "email": "",
           "facebook": "",
           "twitter": "sebasvega95",
-          "github": "anaguicas",
+          "github": "sebasvega95",
           "foto": "vega.jpg"
         },
         {
@@ -66,7 +110,7 @@
       "recurso": [
         {
           "titulo": "Introducción a Visualización de Datos",
-          "slide": "",
+          "slide": "https://speakerdeck.com/sebasvega95/introduccion-a-la-visualizacion-de-datos-en-python",
           "repositorio": "https://github.com/pythonpereira/IntroDataVizSeaborn"
         },
         {
