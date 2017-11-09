@@ -105,9 +105,9 @@
                 <a href="http://twitter.com/{{ organizador.twitter }}" target="blank_"><i class="fa fa-2x fa-twitter text-primary"></i></a>
               </div>
               {% endif %}
-              {% if organizador.facebook %}
+              {% if organizador.linkedin %}
               <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
-                <a href="http://facebook.com/{{ organizador.facebook }}" target="blank_"><i class="fa fa-2x fa-facebook text-primary"></i></a>
+                <a href="http://linkedin.com/in/{{ organizador.linkedin }}" target="blank_"><i class="fa fa-2x fa-linkedin text-primary"></i></a>
               </div>
               {% endif %}
               {% if organizador.email %}
@@ -277,10 +277,10 @@
                           <i class="fa fa-2x fa-twitter text-primary"></i>
                         </a>
                       </div>
-                      {% endif %} {% if speaker.facebook %}
+                      {% endif %} {% if speaker.linkedin %}
                       <div class="col-lg-3 col-md-3 col-xs-3 col-xs-3 text-center">
-                        <a href="http://facebook.com/{{ speaker.facebook }}" target="blank_">
-                          <i class="fa fa-2x fa-facebook text-primary"></i>
+                        <a href="http://linkedin.com/in/{{ speaker.linkedin }}" target="blank_">
+                          <i class="fa fa-2x fa-linkedin text-primary"></i>
                         </a>
                       </div>
                       {% endif %} {% if speaker.email %}
