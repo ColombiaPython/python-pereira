@@ -1,12 +1,44 @@
 {
   "proximo": [
     {
-      "id": "2",
-      "portada": "",
-      "nombre": ":two:da Reunión PyPereira :snake::computer:",
-      "resumen": "",
+      "id": "django-girls-2017",
+      "portada": "portada.png",
+      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
+      "resumen": "Taller de Programación para Mujeres",
       "flyer": "flyer.png",
-      "fecha": "11 Nov 2017",
+      "fecha": "2 DIC 2017",
+      "hora": "08:00-19:00",
+      "lugar": "Auditorio, Edificio Ing. Mecánica",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://miprimeraweb.org",
+      "speaker": [
+        {
+          "nombre": "",
+          "ocupacion": "",
+          "email": "",
+          "facebook": "",
+          "twitter": "",
+          "github": "",
+          "foto": ""
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    }
+  ],
+  "anterior": [
+    {
+      "id": "2",
+      "portada": "portada.jpg",
+      "nombre": ":two:da Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción al Procesamiento Masivamente Paralelo y Arquitecturas Orientadas a Microservicios y APIs con GraphQL",
+      "flyer": "flyer.png",
+      "fecha": "22 Nov 2017",
       "hora": "18:30-20:00",
       "lugar": "Edificio CIDT Salón 15C-204",
       "direccion": "Universidad Tecnológica de Pereira",
@@ -33,49 +65,17 @@
       ],
       "recurso": [
         {
-          "titulo": "",
+          "titulo": "Introducción al Procesamiento Masivamente Paralelo",
           "slide": "",
-          "repositorio": ""
+          "repositorio": "https://github.com/pythonpereira/python-cuda-talk"
         },
         {
-          "titulo": "",
-          "slide": "",
+          "titulo": "Arquitecturas Orientadas a Microservicios y APIs con GraphQL",
+          "slide": "http://slides.com/rockalabs/microservicios-y-apis-con-graphql",
           "repositorio": ""
         }
       ]
     },
-    {
-      "id": "django-girls-2017",
-      "portada": "portada.png",
-      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
-      "resumen": "Taller de Programación para Mujeres",
-      "flyer": "flyer.png",
-      "fecha": "2 DIC 2017",
-      "hora": "08:00-19:00",
-      "lugar": "Auditorio, Edificio Ing. Mecánica",
-      "direccion": "Universidad Tecnológica de Pereira",
-      "url_reservas": "http://miprimeraweb.org",
-      "speaker": [
-        {
-          "nombre": "",
-          "ocupacion": "",
-          "email": "",
-          "linkedin": "",
-          "twitter": "",
-          "github": "",
-          "foto": ""
-        }
-      ],
-      "recurso": [
-        {
-          "titulo": "",
-          "slide": "",
-          "repositorio": ""
-        }
-      ]
-    }
-  ],
-  "anterior": [
     {
       "id": "1",
       "portada": "portada.jpg",
