@@ -1,6 +1,52 @@
 {
   "proximo": [
     {
+      "id": "3",
+      "portada": "portada.png",
+      "nombre": ":three:da Reunión PyPereira :snake::computer:",
+      "resumen": "Charlas desde PyCon Colombia 2018",
+      "flyer": "flyer.png",
+      "fecha": "22 Nov 2017",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-204",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://bit.ly/3raPyPereira",
+      "speaker": [
+        {
+          "nombre": "",
+          "ocupacion": "Ingeniero de Sistemas y Computación",
+          "email": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "foto": "john.jpg"
+        },
+        {
+          "nombre": "Sergio Alexander Florez",
+          "ocupacion": "Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "xergioalex",
+          "twitter": "XergioAleX",
+          "github": "xergioalex",
+          "foto": "john.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción al Procesamiento Masivamente Paralelo",
+          "slide": "",
+          "repositorio": "https://github.com/pythonpereira/python-cuda-talk"
+        },
+        {
+          "titulo": "Arquitecturas Orientadas a Microservicios y APIs con GraphQL",
+          "slide": "http://slides.com/rockalabs/microservicios-y-apis-con-graphql",
+          "repositorio": ""
+        }
+      ]
+    }
+  ],
+  "anterior": [
+    {
       "id": "django-girls-2017",
       "portada": "portada.png",
       "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
@@ -19,7 +65,7 @@
           "facebook": "",
           "twitter": "",
           "github": "",
-          "foto": ""
+          "foto": "john.jpg"
         }
       ],
       "recurso": [
@@ -29,9 +75,7 @@
           "repositorio": ""
         }
       ]
-    }
-  ],
-  "anterior": [
+    },
     {
       "id": "2",
       "portada": "portada.jpg",
