@@ -1,16 +1,16 @@
 {
   "proximo": [
     {
-      "id": "3",
+      "id": "5",
       "portada": "portada.png",
-      "nombre": ":three:da Reunión PyPereira :snake::computer:",
-      "resumen": "Charlas desde PyCon Colombia 2018",
-      "flyer": "flyer.png",
-      "fecha": "22 Nov 2017",
+      "nombre": ":five:ta Reunión PyPereira :snake::computer:",
+      "resumen": "",
+      "flyer": "",
+      "fecha": "30 May 2018",
       "hora": "18:30-20:00",
-      "lugar": "Edificio CIDT Salón 15C-204",
+      "lugar": "",
       "direccion": "Universidad Tecnológica de Pereira",
-      "url_reservas": "http://bit.ly/3raPyPereira",
+      "url_reservas": "https://www.meetup.com/es/pythonpereira/",
       "speaker": [
         {
           "nombre": "",
@@ -22,24 +22,24 @@
           "foto": "john.jpg"
         },
         {
-          "nombre": "Sergio Alexander Florez",
-          "ocupacion": "Ing. Sistemas y Computación",
+          "nombre": "",
+          "ocupacion": "",
           "email": "",
-          "linkedin": "xergioalex",
-          "twitter": "XergioAleX",
-          "github": "xergioalex",
-          "foto": "john.jpg"
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "foto": ""
         }
       ],
       "recurso": [
         {
-          "titulo": "Introducción al Procesamiento Masivamente Paralelo",
+          "titulo": "",
           "slide": "",
-          "repositorio": "https://github.com/pythonpereira/python-cuda-talk"
+          "repositorio": ""
         },
         {
-          "titulo": "Arquitecturas Orientadas a Microservicios y APIs con GraphQL",
-          "slide": "http://slides.com/rockalabs/microservicios-y-apis-con-graphql",
+          "titulo": "",
+          "slide": "",
           "repositorio": ""
         }
       ]
@@ -47,8 +47,126 @@
   ],
   "anterior": [
     {
+      "id": "4",
+      "portada": "portada.jpg",
+      "nombre": ":four:ta Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción al procesamiento del lenguaje natural y Programación asíncrona con Django Channels",
+      "flyer": "",
+      "fecha": "25 Abr 2018",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-206",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/es/pythonpereira/events/249433045/",
+      "speaker": [
+        {
+          "nombre": "Germán Grandas",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "",
+          "twitter": "germangrandas",
+          "github": "",
+          "foto": "profile.jpg"
+        },
+        {
+          "nombre": "Felipe Salazar",
+          "ocupacion": "Full Stack Developer en Rocka",
+          "email": "",
+          "linkedin": "",
+          "twitter": "elpipesalazar",
+          "github": "jotathebest",
+          "foto": "profile.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción al procesamiento del lenguaje natural",
+          "slide": "",
+          "repositorio": ""
+        },
+        {
+          "titulo": "Programación asíncrona con Django Channels",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "1-workshop",
+      "portada": "portada.jpg",
+      "nombre": ":one:er Workshop PyPereira :snake::computer:",
+      "resumen": "Revisión automática de despliegues web usando Selenium y Tratamiento Digital de Imágenes",
+      "flyer": "flyer.png",
+      "fecha": "24 Mar 2018",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio 3 Sala 205 (CRIE)",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/es/pythonpereira/events/248414192/",
+      "speaker": [
+        {
+          "nombre": "José Garcia",
+          "ocupacion": "Hardware and software developer at Ubidots Inc",
+          "email": "  reyes2000jose@gmail.com",
+          "linkedin": "",
+          "twitter": "",
+          "github": "jotathebest",
+          "foto": "profile.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Revisión automática de despliegues web usando Selenium y Tratamiento Digital de Imágenes",
+          "slide": "https://docs.google.com/presentation/d/1tu0YsWdKRXRW7uaBrsR3Vt-VvKtBZ4K0_ntthXWMP4E/edit?usp=sharing",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "portada": "portada.jpg",
+      "nombre": ":three:ra Reunión PyPereira :snake::computer:",
+      "resumen": "Charlas desde PyCon Colombia 2018",
+      "flyer": "flyer.png",
+      "fecha": "28 Feb 2018",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-204",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://bit.ly/3raPyPereira",
+      "speaker": [
+        {
+          "nombre": "Jonathan Sandoval",
+          "ocupacion": "Ingeniero de Sistemas y Computación",
+          "email": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "foto": "profile.jpg"
+        },
+        {
+          "nombre": "Sergio Alexander Florez",
+          "ocupacion": "Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "xergioalex",
+          "twitter": "XergioAleX",
+          "github": "xergioalex",
+          "foto": "sergio.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción a la programación asícrona con Python y Twisted",
+          "slide": "",
+          "repositorio": ""
+        },
+        {
+          "titulo": "Deep Learning: De la academia a la práctica",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
       "id": "django-girls-2017",
-      "portada": "portada.png",
+      "portada": "portada.jpg",
       "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
       "resumen": "Taller de Programación para Mujeres",
       "flyer": "flyer.png",
@@ -59,13 +177,58 @@
       "url_reservas": "http://miprimeraweb.org",
       "speaker": [
         {
-          "nombre": "",
-          "ocupacion": "",
+          "nombre": "Carolina Gómez Trejos",
+          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "email": "carolina9511@gmail.com",
+          "linkedin": "carolinagomezt",
+          "twitter": "caro_gomezt",
+          "github": "carogomezt",
+          "foto": "caro.jpg"
+        },
+        {
+          "nombre": "Alejandro E. Rendon",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
+          "email": "alejorendon@utp.edu.co",
+          "linkedin": "aerendon",
+          "twitter": "alejoerendon",
+          "github": "aerendon",
+          "foto": "arendon.jpg"
+        },
+        {
+          "nombre": "Angélica Aguirre Castro",
+          "ocupacion": "Ingeniera de Sistemas y Computación",
           "email": "",
-          "facebook": "",
-          "twitter": "",
-          "github": "",
-          "foto": "john.jpg"
+          "linkedin": "angelica-aguirre-castro-50abb5110",
+          "twitter": "angelicaaguicas",
+          "github": "anaguicas",
+          "foto": "anaguirre.jpg"
+        },
+        {
+          "nombre": "Gonzalo Peña Castellanos",
+          "ocupacion": "Python Bucaramanga",
+          "email": "goanpeca@gmail.com",
+          "linkedin": "goanpeca",
+          "twitter": "goanpeca",
+          "github": "goanpeca",
+          "foto": "gonzalo.png"
+        },
+        {
+          "nombre": "Johanna Sanchez",
+          "ocupacion": "Argentina en Python y Django Girls Colombia",
+          "email": "ellaquimica@gmail.com",
+          "linkedin": "",
+          "twitter": "ellaquimica",
+          "github": "ellaquimica",
+          "foto": "ellaquimica.png"
+        },
+        {
+          "nombre": "John Jairo Roa",
+          "ocupacion": "Python Colombia",
+          "email": "",
+          "linkedin": "",
+          "twitter": "johnjairoroa87",
+          "github": "johnjairoroa87",
+          "foto": "johnroa.png"
         }
       ],
       "recurso": [
