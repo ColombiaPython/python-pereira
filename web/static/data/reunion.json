@@ -1,0 +1,330 @@
+{
+  "proximo": [],
+  "anterior": [
+    {
+      "id": "5",
+      "portada": "portada.png",
+      "nombre": ":five:ta Reunión PyPereira :snake::computer:",
+      "resumen": "",
+      "flyer": "",
+      "fecha": "30 May 2018",
+      "hora": "18:30-20:00",
+      "lugar": "",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/es/pythonpereira/",
+      "speaker": [
+        {
+          "nombre": "Jonatan Gutierrez ",
+          "ocupacion": "Ingeniero de Desarrollo",
+          "email": "",
+          "linkedin": "",
+          "twitter": "jotangutierrez",
+          "github": "jotangutierrez",
+          "foto": "profile.jpg"
+        },
+        {
+          "nombre": "",
+          "ocupacion": "",
+          "email": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "foto": "profile.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Optimización Mediante Algoritmos genéticos",
+          "slide": "",
+          "repositorio": ""
+        },
+        {
+          "titulo": "",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "portada": "portada.jpg",
+      "nombre": ":four:ta Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción al procesamiento del lenguaje natural y Programación asíncrona con Django Channels",
+      "flyer": "",
+      "fecha": "25 Abr 2018",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-206",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/es/pythonpereira/events/249433045/",
+      "speaker": [
+        {
+          "nombre": "Germán Grandas",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "",
+          "twitter": "germangrandas",
+          "github": "",
+          "foto": "profile.jpg"
+        },
+        {
+          "nombre": "Felipe Salazar",
+          "ocupacion": "Full Stack Developer en Rocka",
+          "email": "",
+          "linkedin": "",
+          "twitter": "elpipesalazar",
+          "github": "jotathebest",
+          "foto": "profile.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción al procesamiento del lenguaje natural",
+          "slide": "",
+          "repositorio": ""
+        },
+        {
+          "titulo": "Programación asíncrona con Django Channels",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "1-workshop",
+      "portada": "portada.jpg",
+      "nombre": ":one:er Workshop PyPereira :snake::computer:",
+      "resumen": "Revisión automática de despliegues web usando Selenium y Tratamiento Digital de Imágenes",
+      "flyer": "flyer.png",
+      "fecha": "24 Mar 2018",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio 3 Sala 205 (CRIE)",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "https://www.meetup.com/es/pythonpereira/events/248414192/",
+      "speaker": [
+        {
+          "nombre": "José Garcia",
+          "ocupacion": "Hardware and software developer at Ubidots Inc",
+          "email": "  reyes2000jose@gmail.com",
+          "linkedin": "",
+          "twitter": "",
+          "github": "jotathebest",
+          "foto": "profile.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Revisión automática de despliegues web usando Selenium y Tratamiento Digital de Imágenes",
+          "slide": "https://docs.google.com/presentation/d/1tu0YsWdKRXRW7uaBrsR3Vt-VvKtBZ4K0_ntthXWMP4E/edit?usp=sharing",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "portada": "portada.jpg",
+      "nombre": ":three:ra Reunión PyPereira :snake::computer:",
+      "resumen": "Charlas desde PyCon Colombia 2018",
+      "flyer": "flyer.png",
+      "fecha": "28 Feb 2018",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-204",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://bit.ly/3raPyPereira",
+      "speaker": [
+        {
+          "nombre": "Jonathan Sandoval",
+          "ocupacion": "Ingeniero de Sistemas y Computación",
+          "email": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "foto": "profile.jpg"
+        },
+        {
+          "nombre": "Sergio Alexander Florez",
+          "ocupacion": "Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "xergioalex",
+          "twitter": "XergioAleX",
+          "github": "xergioalex",
+          "foto": "sergio.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción a la programación asícrona con Python y Twisted",
+          "slide": "",
+          "repositorio": ""
+        },
+        {
+          "titulo": "Deep Learning: De la academia a la práctica",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "django-girls-2017",
+      "portada": "portada.jpg",
+      "nombre": ":woman::computer: Django Girls Pereira :girl::woman:",
+      "resumen": "Taller de Programación para Mujeres",
+      "flyer": "flyer.png",
+      "fecha": "2 DIC 2017",
+      "hora": "08:00-19:00",
+      "lugar": "Auditorio, Edificio Ing. Mecánica",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://miprimeraweb.org",
+      "speaker": [
+        {
+          "nombre": "Carolina Gómez Trejos",
+          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "email": "carolina9511@gmail.com",
+          "linkedin": "carolinagomezt",
+          "twitter": "caro_gomezt",
+          "github": "carogomezt",
+          "foto": "caro.jpg"
+        },
+        {
+          "nombre": "Alejandro E. Rendon",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
+          "email": "alejorendon@utp.edu.co",
+          "linkedin": "aerendon",
+          "twitter": "alejoerendon",
+          "github": "aerendon",
+          "foto": "arendon.jpg"
+        },
+        {
+          "nombre": "Angélica Aguirre Castro",
+          "ocupacion": "Ingeniera de Sistemas y Computación",
+          "email": "",
+          "linkedin": "angelica-aguirre-castro-50abb5110",
+          "twitter": "angelicaaguicas",
+          "github": "anaguicas",
+          "foto": "anaguirre.jpg"
+        },
+        {
+          "nombre": "Gonzalo Peña Castellanos",
+          "ocupacion": "Python Bucaramanga",
+          "email": "goanpeca@gmail.com",
+          "linkedin": "goanpeca",
+          "twitter": "goanpeca",
+          "github": "goanpeca",
+          "foto": "gonzalo.png"
+        },
+        {
+          "nombre": "Johanna Sanchez",
+          "ocupacion": "Argentina en Python y Django Girls Colombia",
+          "email": "ellaquimica@gmail.com",
+          "linkedin": "",
+          "twitter": "ellaquimica",
+          "github": "ellaquimica",
+          "foto": "ellaquimica.png"
+        },
+        {
+          "nombre": "John Jairo Roa",
+          "ocupacion": "Python Colombia",
+          "email": "",
+          "linkedin": "",
+          "twitter": "johnjairoroa87",
+          "github": "johnjairoroa87",
+          "foto": "johnroa.png"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "",
+          "slide": "",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "portada": "portada.jpg",
+      "nombre": ":two:da Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción al Procesamiento Masivamente Paralelo y Arquitecturas Orientadas a Microservicios y APIs con GraphQL",
+      "flyer": "flyer.png",
+      "fecha": "22 Nov 2017",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-204",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://bit.ly/2daPyPereira",
+      "speaker": [
+        {
+          "nombre": "John H. Osorio",
+          "ocupacion": "M.Sc. Ingeniería de Sistemas y Computación",
+          "email": "john@sirius.utp.edu.co",
+          "linkedin": "john-h-osorio-rios-74b547b4",
+          "twitter": "kala855",
+          "github": "kala855",
+          "foto": "john.jpg"
+        },
+        {
+          "nombre": "Sergio Alexander Florez",
+          "ocupacion": "Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "xergioalex",
+          "twitter": "XergioAleX",
+          "github": "xergioalex",
+          "foto": "sergio.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción al Procesamiento Masivamente Paralelo",
+          "slide": "",
+          "repositorio": "https://github.com/pythonpereira/python-cuda-talk"
+        },
+        {
+          "titulo": "Arquitecturas Orientadas a Microservicios y APIs con GraphQL",
+          "slide": "http://slides.com/rockalabs/microservicios-y-apis-con-graphql",
+          "repositorio": ""
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "portada": "portada.jpg",
+      "nombre": ":one:era Reunión PyPereira :snake::computer:",
+      "resumen": "Introducción a Visualización de datos y Web Scrapping",
+      "flyer": "flyer.jpg",
+      "fecha": "25 OCT 2017",
+      "hora": "18:30-20:00",
+      "lugar": "Edificio CIDT Salón 15C-203",
+      "direccion": "Universidad Tecnológica de Pereira",
+      "url_reservas": "http://bit.ly/PyPereira",
+      "speaker": [
+        {
+          "nombre": "Juan Sebastián Vega Patiño",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "juan-sebastián-vega-patiño-2a643513a",
+          "twitter": "sebasvega95",
+          "github": "sebasvega95",
+          "foto": "vega.jpg"
+        },
+        {
+          "nombre": "Jonatan Gutierrez",
+          "ocupacion": "Estudiante, Ing. Sistemas y Computación",
+          "email": "",
+          "linkedin": "jonatan-gutierrez",
+          "twitter": "jotangutierrez",
+          "github": "jonatan6",
+          "foto": "genio.jpg"
+        }
+      ],
+      "recurso": [
+        {
+          "titulo": "Introducción a Visualización de Datos",
+          "slide": "https://speakerdeck.com/sebasvega95/introduccion-a-la-visualizacion-de-datos-en-python",
+          "repositorio": "https://github.com/pythonpereira/IntroDataVizSeaborn"
+        },
+        {
+          "titulo": "Web Scraping",
+          "slide": "https://sway.com/JhUm4oOJvVkIMtDA?ref=Link&loc=play",
+          "repositorio": ""
+        }
+      ]
+    }
+  ]
+}

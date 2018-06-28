@@ -22,3 +22,6 @@ FREEZER_DESTINATION = PROJECT_ROOT
 FREEZER_BASE_URL = "http://pypereira.co/{0}".format(REPO_NAME)
 FREEZER_REMOVE_EXTRA_FILES = False  # IMPORTANT: If this is True, all app files
                                     # will be deleted when you run the freezer
+
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))   # refers to application_top
+APP_DATA = os.path.join(APP_ROOT, 'static/data')

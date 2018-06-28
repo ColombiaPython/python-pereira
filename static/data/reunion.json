@@ -1,5 +1,6 @@
 {
-  "proximo": [
+  "proximo": [],
+  "anterior": [
     {
       "id": "5",
       "portada": "portada.png",
@@ -13,13 +14,13 @@
       "url_reservas": "https://www.meetup.com/es/pythonpereira/",
       "speaker": [
         {
-          "nombre": "",
-          "ocupacion": "Ingeniero de Sistemas y Computación",
+          "nombre": "Jonatan Gutierrez ",
+          "ocupacion": "Ingeniero de Desarrollo",
           "email": "",
           "linkedin": "",
-          "twitter": "",
-          "github": "",
-          "foto": "john.jpg"
+          "twitter": "jotangutierrez",
+          "github": "jotangutierrez",
+          "foto": "profile.jpg"
         },
         {
           "nombre": "",
@@ -28,12 +29,12 @@
           "linkedin": "",
           "twitter": "",
           "github": "",
-          "foto": ""
+          "foto": "profile.jpg"
         }
       ],
       "recurso": [
         {
-          "titulo": "",
+          "titulo": "Optimización Mediante Algoritmos genéticos",
           "slide": "",
           "repositorio": ""
         },
@@ -43,9 +44,7 @@
           "repositorio": ""
         }
       ]
-    }
-  ],
-  "anterior": [
+    },
     {
       "id": "4",
       "portada": "portada.jpg",
